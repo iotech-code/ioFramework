@@ -2,5 +2,12 @@
 composer.phar
 /vendor/
 *.lock
+
+### Framework ###
+.env.*.php
+.env.php
 .env
+node_modules/
+npm-debug.log
+
 
