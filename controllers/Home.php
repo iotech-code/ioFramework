@@ -8,9 +8,6 @@ class Home {
     }
 
     public function index() {
-        $data = [
-            'content'    => 'Welcome'
-        ];
-        echo render('home.tpl', $data);
+        echo render('home.tpl');
     }
 }
