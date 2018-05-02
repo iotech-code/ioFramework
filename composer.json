@@ -1,13 +1,13 @@
 {
-    "name": "gpstc/drop-point",
-    "type": "project",
+    "name": "iotech-thailand/ioframework",
+    "type": "framework",
     "authors": [
         {
             "name": "Apinan Woratrakun",
             "email": "apinan@iotech.co.th"
         }
     ],
-    "minimum-stability": "dev",
+    "license": "MIT",
     "require": {
         "nezamy/route": "dev-master",
         "dwoo/dwoo": "1.3.*",
