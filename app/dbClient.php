@@ -1,7 +1,8 @@
 <?php
+namespace app;
 use Medoo\Medoo;
 
-class DB {
+class dbClient {
     var $connect = '';
     function __construct() {
         $this->connect = new Medoo([

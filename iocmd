@@ -1,0 +1,26 @@
+<?php
+require('vendor/autoload.php');
+// class HelloCommand extends ConsoleKit\Command
+// {
+//     public function execute(array $args, array $options = array())
+//     {
+//         $this->writeln('hello world!', ConsoleKit\Colors::GREEN);
+//     }
+// }
+use app\cmd\CreateController;
+use ConsoleKit\Console,
+    ConsoleKit\Command,
+    ConsoleKit\Colors,
+    ConsoleKit\Utils,
+    ConsoleKit\Widgets\Dialog,
+    ConsoleKit\Widgets\Box,
+    ConsoleKit\Widgets\ProgressBar;
+
+$console = new Console();
+
+$box = new Box($console, 'i/o Framework command line tools.');
+$box->write();
+
+
+// $console->addCommand('CreateController');
+$console->run();
