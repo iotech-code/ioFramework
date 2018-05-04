@@ -23,7 +23,7 @@ class dbClient {
     }
 
     function update($tb, $data, $cond = array()) {
-        return $this->connect->update($tb, $data, $cond);    
+        return $this->connect->update($tb, $data, $cond);
     }
 
     function delete($tb, $cond) {
@@ -34,3 +34,6 @@ class dbClient {
         return $this->connect;
     }
 }
+
+use app\dbClient;
+$db = new dbClient;

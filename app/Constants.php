@@ -16,6 +16,7 @@ $fnc = [
     "getconst" => "get_constant",
     "render" => "page_render",
     "req" => "all_request",
-    "this" => "app_request"
+    "this" => "app_request",
+    "json" => "to_json_respose"
 ];
 
